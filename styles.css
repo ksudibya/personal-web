@@ -1,18 +1,47 @@
 
 body {
-    background-color: lightgreen;
+    background-color: lightgrey;
+    
+    /*background-image: url("IMG_8433.jpeg");*/
+    
+    
 }
 @media screen and (max-width: 600px) {
     body {
         background-color: lightblue;
     }
   }
- 
-.first{
+.profile {}
+
+.section1 {
     display:flex;
-    margin: 20px;
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 120px;
+    line-height:30%;
+    
 }
-.second{
+.section2 {
     display:flex;
-    margin: 20px;
-}    
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+        
+}
+.contact {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+
+    
+    
+
+
+}
+
+.sections {
+    display: flex;
+    
+    
+}
